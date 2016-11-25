@@ -1,0 +1,24 @@
+.imagemEsquerda{
+	float: left;
+	/*width: 250px;
+	height: 400px;*/
+	/*box-sizing: border-box;*/
+}
+
+.logos{
+	border: none !important;
+	box-shadow: none !important;
+	margin-top: 100px !important;
+}
+
+.descer{
+	margin-top: 150px !important;
+
+}
+.codigo{
+	border: none !important;
+	box-shadow: none !important;
+	/*margin-left: 150px !important;*/
+	width: 400px;
+	height: 300px;
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>HTML5 e CSS3</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="icon" type="image/png" href="img/html5.png">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section>
+					<h1 class="descer">Design Responsivo com HTML5 e CSS3</h1>
+
+				</section>
+
+				<section>
+					<h2>Quem sou eu?</h2>
+					<img src="img/eu.jpg" class="imagemEsquerda">
+					<ul>
+						<li>Técnico em Informatica</li>
+						<li>Graduando em Sistemas para Internet</li>
+						<li><a href="https://github.com/halyson97" target="blank">github.com/halyson97</a></li>
+						<li><a href="https://www.facebook.com/halyson.rezende">facebook.com/halyson.rezende</a></li>
+					</ul>
+
+				</section>
+
+				<section>
+					<h2>Mas o que é design responsivo?</h2>
+					<img src="img/responsive-for-modern-monitors-group-symbol.svg" class="codigo">
+					<p>Exemplo:</p>
+					<p><a href="https://willianjusten.com.br/" target="top">willianjusten.com.br</a></p>
+								
+					
+				</section>
+
+				<section>
+					<section>
+						<h2>História do HTML</h2>
+
+						<p>1990 - HTML</p>
+						<p class="fragment"><a href="http://info.cern.ch/" target="top">1991 - Primeiro site HTML</a></p>
+						<p class="fragment">1995 - HTML 2</p>
+						<p class="fragment">1995 - HTML 3</p>
+						<p class="fragment">1997 - HTML 4</p>
+						<p class="fragment">2004 - XHTML</p>
+						<p class="fragment">2007 - XHTML 2</p>
+						<p class="fragment">2008 - HTML5</p>
+						
+					</section>
+					<section>
+						<h2>Mundo Web</h2>
+						<img src="img/html5-css-javascript-logos.png" class="logos">
+						
+					</section>
+					
+				</section>
+				<section>
+					<h2>Bora Começar!!!</h2>
+					<p>Birrr</p>
+					<a href="http://localhost:8000">
+						<img src="img/programming-code.svg" class="image codigo" alt="Unicorn">
+					</a>
+				</section>
+					
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
