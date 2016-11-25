@@ -1,0 +1,130 @@
+@font-face{
+	font-family: DroidSans;
+	src: url(../fonts/Droid_Sans/DroidSans.ttf);
+}
+
+@font-face{
+	font-family: DroidSansBold;
+	src: url(../fonts/Droid_Sans/DroidSans-Bold.ttf);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+	font-family: 'DroidSans';
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #F44336;
+	position: fixed;
+	-webkit-box-shadow: 5px 5px 19px 0px rgba(50, 50, 50, 0.66);
+	-moz-box-shadow:    5px 5px 19px 0px rgba(50, 50, 50, 0.66);
+	box-shadow:         5px 5px 19px 0px rgba(50, 50, 50, 0.66);
+	z-index: 2;
+}
+
+header > .titulo{
+	width: calc(100% - 60px);
+	height: 100%;
+	float: left;
+	color: #fff;
+	font-size: 1.7em;
+	line-height: 60px;
+	text-indent: 30px;
+}
+
+header > .iconePesquisa{
+	width: 60px;
+	height: 100%;
+	float: right;
+}
+
+.iconePesquisa > .icone{
+	width: 60%;
+	height: 60%;
+	padding: 10px;
+}
+
+section{
+	width: 100%;
+	padding-top: 60px;
+}
+
+article{
+	min-height: 50px;
+	background-color: #fff;
+	position: relative;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 3px;
+	transition: 1s;
+
+}
+
+article > .titulo{
+	width: 100%;
+	font-size: 1.2em;
+	font-family: 'DroidSansBold';
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: justify;
+
+}
+
+article > .data{
+	width: 100%;
+	font-size: 0.7em;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+
+article > .descricao{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: justify;
+}
+
+article > .rodape{
+	width: 100%;
+	height: 40px;
+	
+}
+
+.rodape > .local, .rodape > .leiaMais{
+	float: left;
+	width: 35%;
+	background-color: #388E3C;
+	color: #fff;
+	height: 30px;
+	text-align: center;
+	margin-top: 5px;
+	line-height: 30px;
+	margin-left: 10%;
+}
+
+.rodape > .leiaMais{
+	background-color: #757575;
+}
+
+
+@media screen and (max-width: 399px){
+	article{
+		width: 95%;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 649px){
+	article{
+		width: 90%;
+	}
+}
+
+@media screen and (min-width: 650px){
+	article{
+		width: 600px;
+	}
+}
