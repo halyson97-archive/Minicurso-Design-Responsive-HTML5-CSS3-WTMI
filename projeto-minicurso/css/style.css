@@ -36,13 +36,13 @@ header > .titulo{
 	text-indent: 30px;
 }
 
-header > .iconePesquisa{
+header > .iconeAtualizar{
 	width: 60px;
 	height: 100%;
 	float: right;
 }
 
-.iconePesquisa > .icone{
+.iconeAtualizar > .icone{
 	width: 60%;
 	height: 60%;
 	padding: 10px;
